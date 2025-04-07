@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 2em;
+  }
+  
+  #wrapper {
+	background-color: #fff;
+	padding: 2em;
+	max-width: 700px;
+	width: 90%;
+	margin: auto;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+	text-align: center;
+	color: #333;
+  }
+  
+  ul {
+	padding: 0;
+  }
+  
+  #formcol1 {
+	width: 100%;
+  }
+  
+  #formcol1 li {
+	list-style: none;
+	margin-bottom: 1em;
+  }
+  
+  label {
+	display: inline-block;
+	width: 8em;
+	text-align: right;
+	margin-right: 1em;
+  }
+  
+  input[type="text"],
+  input[type="radio"] {
+	padding: 0.5em;
+	font-size: 1em;
+  }
+  
+  fieldset {
+	border: 1px solid #ccc;
+	padding: 1em;
+	margin-top: 2em;
+  }
+  
+  legend {
+	font-weight: bold;
+	padding: 0 0.5em;
+  }
+  
+  .submit-button {
+	text-align: center;
+	margin-top: 2em;
+  }
+  
+  button {
+	background-color: #BB3D2F;
+	color: white;
+	padding: 0.8em 1.5em;
+	border: none;
+	border-radius: 5px;
+	font-size: 1em;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	background-color: #A53228;
+  }
+  
+  input:focus,
+  select:focus,
+  button:focus {
+	outline: 2px solid #BB3D2F;
+	background-color: #FFE5E0;
+  }
+  
+
+
+/* end of form css */
+	
