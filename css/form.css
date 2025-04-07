@@ -87,7 +87,10 @@ body {
 	outline: 2px solid #BB3D2F;
 	background-color: #FFE5E0;
   }
-  
+
+    input.reqfield {
+	background-color: #ffffcc;
+  }
 
 
 /* end of form css */
